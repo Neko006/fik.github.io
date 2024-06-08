@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* style css */
+body {
+    background-color: #a4cefb;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* nabar  */
+nav {
+    padding: 5px;
+    background-color: rgb(244, 19, 19);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    bottom: auto;
+}
+
+.bren {
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+    padding-left: 20%;
+}
+
+ul li a {
+    font-size: 5em;
+    color: #a4cefb;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-weight: 500;
+    padding: 20px 30px;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    background-color: #fff;
+    color: black;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+/* akhir nabar*/
+
+
+
+/* content  */
+
+.flex-container {
+    /* position: fixed; */
+    margin-top: 200px;
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    margin: 30px;
+    padding: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-weight: 99999;
+    font-size: 5em;
+    color: azure;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    height: 450px;
+    padding: 20px 50px;
+}
+
+/* akhir content  */
+
+
+/* contant me  */
+
+.ctm {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+
+
+/* akhir contant me  */
+
+
+/* fouter   */
+h4 {
+    height: 100px;
+    font-size: 6em;
+    text-align: center;
+    background-color: rgb(244, 19, 19) ;
+    top: 10px;
+    color: #fff;
+}
+/* akir fuoter */
